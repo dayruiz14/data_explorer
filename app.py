@@ -200,4 +200,4 @@ with tabs[5]:
         outliers = df[(df[var] < lim_inf) | (df[var] > lim_sup)]
         for idx, row in outliers.iterrows():
             resultados.append({"Fila": idx, "Variable": var, "Valor": row[var],
-                               "Límite inferior": lim_inf, "Límite superior": lim_sup
+                               "Límite inferior": lim_inf, "Límite superior": lim_sup})
